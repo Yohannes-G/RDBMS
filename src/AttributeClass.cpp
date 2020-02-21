@@ -110,8 +110,6 @@ void Attribute::setValues(string attributeNames, string dataType)
     }
     this -> attributeNames = attributeNames;
     this -> dataType = stringToEnum(dataType);
-
-
 }
 //returns the name of the attribute
 string Attribute::getName()													
