@@ -14,7 +14,7 @@ enum Type
 {
     INT, DOUBLE, CHAR, BOOL, STRING
 };
-//declaration of Table, Database, Tuple and Attribute class
+//declaration of Attribute class
 class Attribute
 {
 private:

@@ -77,24 +77,24 @@ Table ProjectTable(Table table, vector<string> attributes)
 	{	
 		
 		vector<Tuple> cell = *it;
-		cout << "hello"<<endl;
+		 
 		std::vector<Tuple> v( attributes.size());
-		cout << "hello"<<endl;
+		 
 		for(int j=0;j<attributes.size();j++)
 		{
 			 
 			int index = table.getAttributeIndexByName(attributes[j]);	
 			 	
-			cout<<index<<endl;
+		 
 			v[j]=cell[index];
 			
 			
 		}
 		if(!output.dataTupleExists(v))	
-			cout << "hello"<<endl;												
+			 												
 			output.addDataTuple(v);														
 	}
-cout << "hello"<<endl;
+ 
 	return output;
 }
 
